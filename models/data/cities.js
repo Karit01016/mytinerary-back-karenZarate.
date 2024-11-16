@@ -1,3 +1,4 @@
+import mongoose from 'mongoose';
 import "dotenv/config.js";
 import "../../config/database.js";
 import City from "../City.js";
@@ -17,7 +18,7 @@ const cities = [
     country: "Japan",
     continent: "Asia",
     description: "One of the world's most populated cities and a major financial hub in Asia.",
-    currency: 147 // JPY (approximate USD conversion rate)
+    currency: 147
   },
   {
     name: "Paris",
@@ -145,7 +146,7 @@ const cities = [
     country: "Thailand",
     continent: "Asia",
     description: "Thailand's capital, known for its ornate temples and vibrant street life.",
-    currency: 37 // THB
+    currency: 37 
   },
   {
     name: "Rome",
@@ -153,7 +154,7 @@ const cities = [
     country: "Italy",
     continent: "Europe",
     description: "Italy's capital, famous for its ancient ruins, art, and the Vatican.",
-    currency: 0.95 // EUR
+    currency: 0.95
   },
   {
     name: "Toronto",
@@ -161,7 +162,7 @@ const cities = [
     country: "Canada",
     continent: "North America",
     description: "A major Canadian city, known for its CN Tower and diverse culture.",
-    currency: 1.3 // CAD
+    currency: 1.3 
   }
 ];
 

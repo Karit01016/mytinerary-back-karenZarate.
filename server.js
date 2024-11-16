@@ -3,7 +3,6 @@ import "dotenv/config.js";
 import "./config/database.js";
 import cors from "cors";
 import morgan from "morgan";
-
 import indexRouter from "./router/index.js"; 
 import not_found_handlers from "./middleware/not_found_handler.js"; // middleware 404
 import error_handlers from "./middleware/error_handler.js"; // middleware 500

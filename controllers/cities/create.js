@@ -1,4 +1,4 @@
-import City from "../models/City.js";
+import City from "../../models/City.js";
 //interactua y me da las funciones para poderme conectar con el.
 
 let createOneCity = async (req, res, next) => {
