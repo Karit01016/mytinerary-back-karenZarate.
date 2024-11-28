@@ -14,10 +14,13 @@ const server = express();
 const PORT = process.env.PORT || 8080;
 
 const ready = () => console.log("Karen, vas bien, estás en el puerto");
+console.log("Inicializando servidor y Passport");
+
 
 
 
 server.use(express.json());
+
 server.use(express.urlencoded({ extended: true }));
 server.use(cors());
 server.use(morgan("dev"));
